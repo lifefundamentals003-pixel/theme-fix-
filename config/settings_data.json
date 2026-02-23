@@ -24,27 +24,6 @@
     "button_letter_spacing": 18,
     "content_for_index": [],
     "blocks": {
-      "16798170927650018749": {
-        "type": "shopify://apps/recharge-subscriptions/blocks/storefront-experiences/371eed76-0b44-4869-9813-730372ea378e",
-        "disabled": false,
-        "settings": {}
-      },
-      "17151115064775110295": {
-        "type": "shopify://apps/recharge-subscriptions/blocks/recharge-theme/371eed76-0b44-4869-9813-730372ea378e",
-        "disabled": false,
-        "settings": {
-          "color_brand": "#1773B0",
-          "contrast_color": "#FFFFFF",
-          "color_brand_secondary": "#1773B0",
-          "corners": "8px",
-          "app_background": "#f7f7f7",
-          "app_container": 1200,
-          "app_vertical_padding": 32,
-          "images_aspect_ratio": "1",
-          "cards_background": "#FFFFFF",
-          "cards_border_color": "rgba(0,0,0,0)"
-        }
-      },
       "15557474716127144420": {
         "type": "shopify://apps/kaching-bundles/blocks/app-embed-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
         "disabled": false,
@@ -57,6 +36,11 @@
       },
       "855628211100114053": {
         "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
+        "disabled": false,
+        "settings": {}
+      },
+      "14952540001915115444": {
+        "type": "shopify://apps/upcart-cart-drawer/blocks/app-embed/af3da5fb-f5f7-40ec-8273-41bf50059d4b",
         "disabled": false,
         "settings": {}
       }
