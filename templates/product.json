@@ -39,6 +39,17 @@
           "type": "shopify://apps/recharge-subscriptions/blocks/subscription-widget-v2/371eed76-0b44-4869-9813-730372ea378e",
           "settings": {}
         },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
         "payment_terms": {
           "type": "payment_terms",
           "settings": {}
@@ -68,17 +79,6 @@
           "type": "quantity_selector",
           "settings": {}
         },
-        "buy_buttons": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_payment_button": true,
-            "show_gift_card_recipient": true,
-            "atc_button_background": "",
-            "atc_button_text_color": "",
-            "payment_button_background": "",
-            "payment_button_text_color": ""
-          }
-        },
         "complementary_products": {
           "type": "complementary_products",
           "settings": {
@@ -96,12 +96,12 @@
         "price",
         "kaching_bundles_app_block_qN96MH",
         "recharge_subscriptions_subscription_widget_v2_9RpzXe",
+        "buy_buttons",
         "payment_terms",
         "separator",
         "description",
         "variant_picker",
         "quantity_selector",
-        "buy_buttons",
         "complementary_products"
       ],
       "settings": {
