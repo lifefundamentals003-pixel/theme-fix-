@@ -26,6 +26,15 @@
     "text_font": "century_gothic_n4",
     "text_font_size_desktop": 14,
     "button_letter_spacing": 18,
+    "sections": {
+      "main-gift-card": {
+        "type": "main-gift-card",
+        "settings": {
+          "color_scheme": "scheme-3",
+          "show_qr_code": true
+        }
+      }
+    },
     "content_for_index": [],
     "blocks": {
       "15557474716127144420": {
