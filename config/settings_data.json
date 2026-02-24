@@ -77,13 +77,13 @@
       },
       "scheme-3": {
         "settings": {
-          "background": "#1c1c1c",
+          "background": "#0a0a0a",
           "background_gradient": "",
-          "text_color": "#ffffff",
-          "primary_button_background": "#ffffff",
-          "primary_button_text_color": "#1c1c1c",
-          "circle_button_background": "#ffffff",
-          "circle_button_icon": "#1c1c1c"
+          "text_color": "#f5f0e8",
+          "primary_button_background": "#c9a84c",
+          "primary_button_text_color": "#0a0a0a",
+          "circle_button_background": "#c9a84c",
+          "circle_button_icon": "#0a0a0a"
         }
       },
       "scheme-4": {
