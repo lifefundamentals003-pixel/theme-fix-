@@ -35,9 +35,11 @@
             "manual_deal_block_id": ""
           }
         },
-        "recharge_subscriptions_subscription_widget_v2_9RpzXe": {
-          "type": "shopify://apps/recharge-subscriptions/blocks/subscription-widget-v2/371eed76-0b44-4869-9813-730372ea378e",
-          "settings": {}
+        "kaching_subscriptions_app_block_JMyqgx": {
+          "type": "shopify://apps/kaching-subscriptions/blocks/app-block/1fa39fd7-f6a3-4bbc-9383-7d91d27b44f5",
+          "settings": {
+            "product": "{{product}}"
+          }
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -95,7 +97,7 @@
         "title",
         "price",
         "kaching_bundles_app_block_qN96MH",
-        "recharge_subscriptions_subscription_widget_v2_9RpzXe",
+        "kaching_subscriptions_app_block_JMyqgx",
         "buy_buttons",
         "payment_terms",
         "separator",
