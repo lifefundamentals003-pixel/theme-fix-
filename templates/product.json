@@ -102,7 +102,7 @@
         "color_scheme": "scheme-3",
         "container_size": "xl",
         "product_info_size": 45,
-        "show_sticky_add_to_cart": true,
+        "show_sticky_add_to_cart": false,
         "center_basic_info": true,
         "desktop_media_layout": "grid",
         "desktop_media_grid_gap": 30,
