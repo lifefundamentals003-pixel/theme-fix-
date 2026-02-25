@@ -35,6 +35,9 @@
     },
     "header": {
       "type": "header",
+      "custom_css": [
+        ".header__icon--cart,cart-notification,a[href=\"/cart\"],.header [href=\"/cart\"] {display: none !important;}"
+      ],
       "settings": {
         "color_scheme": "scheme-3",
         "enable_sticky": true,
