@@ -113,29 +113,19 @@
         {%- sections 'footer-group' -%}
       {%- endif -%}
     </main>
-    <script>
-    document.addEventListener('submit', function(e) {
-      var form = e.target;
-      if (form.action && form.action.includes('/cart/add')) {
-        var input = document.createElement('input');
-        input.type = 'hidden';
-        input.name = 'return_to';
-        input.value = '/checkout';
-        form.appendChild(input);
-      }
-    });
-    </script>
-```
-
-Dus het wordt:
-```
-115     </main>
-116
-117     <script>
-118     document.addEventListener('submit', function(e) {
-...
-128     </script>
-129   </body>
-130 </html>
+<script>
+(function() {
+  var origFetch = window.fetch;
+  window.fetch = function(url, options) {
+    var result = origFetch.apply(this, arguments);
+    if (typeof url === 'string' && url.includes('/cart/add')) {
+      result.then(function() {
+        window.location.href = '/checkout';
+      });
+    }
+    return result;
+  };
+})();
+</script>
   </body>
 </html>
