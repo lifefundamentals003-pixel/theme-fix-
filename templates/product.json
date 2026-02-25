@@ -69,20 +69,6 @@
             "variant_image_options": "",
             "size_chart_page": ""
           }
-        },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "settings": {}
-        },
-        "complementary_products": {
-          "type": "complementary_products",
-          "settings": {
-            "title": "Pairs well with",
-            "products_count": 2,
-            "show_below_gallery": true,
-            "stack_products": false,
-            "show_quick_buy": true
-          }
         }
       },
       "block_order": [
@@ -94,10 +80,9 @@
         "payment_terms",
         "separator",
         "description",
-        "variant_picker",
-        "quantity_selector",
-        "complementary_products"
+        "variant_picker"
       ],
+      "custom_css": [],
       "settings": {
         "color_scheme": "scheme-3",
         "container_size": "xl",
