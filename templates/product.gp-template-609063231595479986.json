@@ -9,16 +9,9 @@
  */
 {
   "sections": {
-    "gp_section_609063451897103320": {
-      "settings": {
-        "checksum": "f5f2a3f9e2edde52623d3b4179eda29f14bb772c4cb84067dca0c5acd147ba1b_1_1_1_0__1",
-        "section_preload": "true"
-      },
-      "type": "gp-section-609063451897103320"
-    },
     "gp_section_609063831733273282": {
       "settings": {
-        "checksum": "354dd20aeea565db6a778389e0c528df388b0c05088a07a8ad1509b2d7c8ff09_1_1_1_0__1",
+        "checksum": "cb8b7e153b0fa5bde40bc0c5939260dfabc03a416c5e5e31d7d7585ce975a2e2_1_1_1_0__1",
         "ggW9Fd2whAs_text": "<p>The T3-First Protocol: The Upstream Fix Your Other Supplements Missed.</p>",
         "ggguPYaSXa9_text": "<p>4.8/5 based on 847 reviews</p>",
         "gglX0pWJRHT_displayContent": "{percent_discount} off",
@@ -118,7 +111,6 @@
     }
   },
   "order": [
-    "gp_section_609063451897103320",
     "gp_section_609063831733273282",
     "gp_section_609065184144655042",
     "gp_section_609065798006277042",
