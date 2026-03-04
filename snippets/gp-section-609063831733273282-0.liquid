@@ -17,32 +17,7 @@
       style="--jc:start"
       class="g_dGlrJgz9 gp-relative gp-flex gp-flex-col"
     >
-      <div gp-el-wrapper style="--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--op-mobile:100%;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--mb:4px;--mt-mobile:0px;--mb-mobile:4px;--pt-mobile:0px" class="gekXSNp7pR ">
-      {% unless product %}<p>{{ 'gempages.ProductTitle.product_not_found' | t }}</p>{% else %}
-      <gp-product-title
-        gp-data='{"setting":{"linkProduct":false},"uid":"gekXSNp7pR"}'
-      >
-        
-    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
-    <div data-id="gekXSNp7pR"
-        class="gekXSNp7pR"
-        style="--dynamic-source-color:#F4F4F4"
-      >
-      <div  >
-        <h1
-          data-gp-text
-          class="gp-text-g-text-2 gp-text-instant"
-          style="--w:100%;--tdt:auto;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--c:var(--g-c-text-2, text-2);--fs:normal;--ff:var(--g-font-heading, heading);--weight:600;--size:33px;--size-tablet:28px;--size-mobile:24px;--lh:130%;--lh-tablet:130%;--lh-mobile:130%;--ls:normal;word-break:break-word;overflow:hidden"
-        >
-          {{ product.title }}
-        </h1>
-      </div>
-    </div>
-    
-      </gp-product-title>
-      <script {% if section.settings.section_preload == "false" %}class="gps-link" delay {% else %}src{% endif %}="https://assets.gemcommerce.com/assets-v2/gp-product-title-v7-5.js?v={{ shop.metafields.GEMPAGES.ASSETS_VERSION }}" defer="defer"></script>
-    {% endunless %}
-      </div>
+      
     
 
     
@@ -124,7 +99,7 @@
       
     <div  class="gp-flex gp-w-full gp-flex-col gp-items-center">
       
-    <div id="gYYqjht5Ns" class="gp-leading-[0] gYYqjht5Ns" style="--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--ta:left">
+    <div id="gYYqjht5Ns" class="gp-leading-[0] gYYqjht5Ns" style="--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--mb-mobile:0px;--ta:left">
       <div data-id="gYYqjht5Ns" class="icon-wrapper gp-inline-flex gp-overflow-hidden gYYqjht5Ns " style="--bs:none;--bw:1px 1px 1px 1px;--bc:#000000">
       
         <div >
@@ -175,7 +150,32 @@
       
     </gp-row>
   
-  
+  <div gp-el-wrapper style="--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--op-mobile:100%;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--mb:4px;--mt-mobile:0px;--mb-mobile:4px;--pt-mobile:0px" class="gekXSNp7pR ">
+      {% unless product %}<p>{{ 'gempages.ProductTitle.product_not_found' | t }}</p>{% else %}
+      <gp-product-title
+        gp-data='{"setting":{"linkProduct":false},"uid":"gekXSNp7pR"}'
+      >
+        
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+    <div data-id="gekXSNp7pR"
+        class="gekXSNp7pR"
+        style="--dynamic-source-color:#F4F4F4"
+      >
+      <div  >
+        <h1
+          data-gp-text
+          class="gp-text-g-text-2 gp-text-instant"
+          style="--w:100%;--tdt:auto;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--c:var(--g-c-text-2, text-2);--fs:normal;--ff:var(--g-font-heading, heading);--weight:600;--size:33px;--size-tablet:28px;--size-mobile:24px;--lh:130%;--lh-tablet:130%;--lh-mobile:130%;--ls:normal;word-break:break-word;overflow:hidden"
+        >
+          {{ product.title }}
+        </h1>
+      </div>
+    </div>
+    
+      </gp-product-title>
+      <script {% if section.settings.section_preload == "false" %}class="gps-link" delay {% else %}src{% endif %}="https://assets.gemcommerce.com/assets-v2/gp-product-title-v7-5.js?v={{ shop.metafields.GEMPAGES.ASSETS_VERSION }}" defer="defer"></script>
+    {% endunless %}
+      </div>
     
 
     
