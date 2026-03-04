@@ -264,162 +264,38 @@
       class="gqc_FXREpo gp-relative gp-flex gp-flex-col"
     >
       
-    {% if product %}
+  
+    <div
       
-    {% assign content = section.settings.gglX0pWJRHT_displayContent %}
-
-    {%if content.size > 0 %}
-      {% if variant.compare_at_price and variant.compare_at_price > 0 %}
-        {% assign amountDiscount = variant.compare_at_price | minus: variant.price %}
-        {% assign percentDiscount = amountDiscount | times: 100.0 | divided_by: variant.compare_at_price | round%}
-      {% else %}
-        {% assign amountDiscount = 0 %}
-        {% assign percentDiscount = 0 %}
-      {% endif %}
-
-      {% assign percentDiscountValue = percentDiscount | append: "%" %}
-      {% assign amountDiscountValue = amountDiscount | money_without_trailing_zeros %}
-      {% assign price = variant.price | divided_by: 100 %}
-      {% assign minPriceValue = product.variants | map: "price" | sort | first | money_without_trailing_zeros %}
-      {% assign inventoryQuantityValue = variant.inventory_quantity | default: 0 %}
-
-      {% assign percentDiscountKey = "{percent_discount}" %}
-      {% assign amountDiscountKey = "{amount_discount}" %}
-      {% assign minPriceKey = "{min_price}" %}
-      {% assign inventoryQuantityKey = "{inventory_quantity}" %}
-    {% endif %}
-  
-      
-  {% assign isShow = true %}
-  {% assign conditionTriggers = "" %}
-  {% assign isInventoryStatus = false %}
-  {% assign isDiscountPrice = false %}
-  {% assign isPriceRange = false %}
-  {% assign isCreationDate = false %}
-  {% assign isProductTag = false %}
-  
-      {% assign type = "in_stock" %}
-      {% assign shouldContinue = false %}
-      {% if variant.inventory_policy == "continue" and type != "out_of_stock" %}
-        {% assign shouldContinue = true %}
-      {% endif %}
-      {% if variant.inventory_management == null or shouldContinue  %}
-        {% assign conditionTriggers = conditionTriggers | append: "," | append: true %}
-      {% elsif variant.inventory_quantity != null %}
-        {% assign compareValue = variant.inventory_quantity %}
-        {% if type == "in_stock" %}
-          {% assign conditionType = "exact_or_above" %}
-          {% assign from = 1 %}
-          {% assign to = 15 %}
-          
-    {% assign enabled = false %}
-    {% case conditionType %}
-      {% when "exact" %}
-        {% if compareValue == from %}
-          {% assign enabled = true %}
-        {% endif %}
-      {% when "above" %}
-        {% if compareValue > from %}
-          {% assign enabled = true %}
-        {% endif %}
-      {% when "below" %}
-        {% if compareValue < from %}
-          {% assign enabled = true %}
-        {% endif %}
-      {% when "exact_or_above" %}
-        {% if compareValue >= from %}
-          {% assign enabled = true %}
-        {% endif %}
-      {% when "exact_or_below" %}
-        {% if compareValue <= from %}
-          {% assign enabled = true %}
-        {% endif %}
-      {% when "between" %}
-        {% if compareValue >= from and compareValue <= to %}
-          {% assign enabled = true %}
-        {% endif %}
-      {% else %}
-        {% assign enabled = false %}
-    {% endcase %}
-  
-          {% if conditionType == "below" or conditionType == "exact_or_below" %}
-            {% assign min = 1 %}
-            {% assign from = 1 %}
-            {% assign to = from | minus: min | plus: 1 %}
-            {% if compareValue >= from and compareValue <= to %}
-              {% assign enabled = true %}
-            {% else %}
-              {% assign enabled = false %}
-            {% endif %}
-          {% endif %}
-          {% assign isInventoryStatus = enabled %}
-        {% else %}
-          {% if compareValue <= 0 and variant.inventory_policy != "continue"  %}
-            {% assign isInventoryStatus = true %}
-          {% endif %}
-        {% endif %}
-        {% assign conditionTriggers = conditionTriggers | append: "," | append: isInventoryStatus %}
-      {% else %}
-        {% assign conditionTriggers = conditionTriggers | append: "," | append: false %}
-      {% endif %}
-
-  
-  {% assign trigger_arr = conditionTriggers | split: "," %}
-  {% for trigger in trigger_arr %}
-    {% if trigger == "false" %}
-      {% assign isShow = false %}
-    {% endif %}
-  {% endfor %}
-  {% assign price = variant.price | times: 1.0 %}
-  {% assign salePrice = variant.compare_at_price | times: 1.0 %}
-  {% assign priceSave = salePrice | minus: price %}
-  {% assign isEmptyBadgeContent = false %}
-  {% assign isNotDiscount = false %}
-  {% assign isBadgeContentHasDiscount = true %}
-  {% if isEmptyBadgeContent == true %}
-    {% assign isNotDiscount = true %}
-  {% endif %}
-  {% if isBadgeContentHasDiscount == true and priceSave <= 0 %}
-    {% assign isNotDiscount = true %}
-  {% endif %}
-  {% if isShow and isNotDiscount == false %}
-    {% assign className = "" %}
-  {% else %}
-    {% assign className = "!gp-hidden" %}
-  {% endif %}
-  
-      <gp-product-badge
-        data-id="glX0pWJRHT" id="g-product-badge-glX0pWJRHT" gp-data-hidden="false"
-        gp-data='{"minPrice":"{{ minPriceValue | replace: '"', '\\"' | escape }}","variantIDs":"{{  product.variants | map: "id" | json | escape }}","variantInventoryQuantities":"{{ product.variants | map: "inventory_quantity" | json | escape }}","amountDiscount":"{{amountDiscountValue | replace: '"', '\\"' | escape }}","percentDiscount":"{{percentDiscountValue}}","price":"{{price}}","displayTrigger":[{"conditionType":"exact_or_above","from":"1","priority":0,"quantityType":"exact_or_above","to":"15","triggerEvent":"inventory_status","type":"in_stock"}],"uid":"glX0pWJRHT","productCreatedAt":"{{product.created_at | date: "%Y-%m-%d" }}","productTags":"{{ product.tags | join: "," | replace: '"', '\\"' | escape }}","isTextBadge":true}'
-        class="gp-shrink-0 product-badge glX0pWJRHT  {{ className }}"
-        style="z-index:2;--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px"
-        data-display-content="{{ section.settings.gglX0pWJRHT_displayContent }}"
-      >
-        <div class="gp-flex gp-justify-start ">
-          <div
-            data-product-id id="glX0pWJRHT"
-            class="gp-h-full"
-            style="--w:auto;--w-tablet:auto;--w-mobile:auto;--h:auto;--h-tablet:auto;--h-mobile:auto;--mb:0;opacity:1"
-          >
-            <style></style>
-            
-                <div class="gp-w-full gp-h-full gp-overflow-hidden product-badge-item">
-                  <div
-                    class="gp-w-full gp-h-full gp-flex gp-items-center gp-justify-center gp-overflow-hidden"
-                    style="--btlr:3px;--btlr-tablet:3px;--btlr-mobile:3px;--btrr:3px;--btrr-tablet:3px;--btrr-mobile:3px;--bblr:3px;--bblr-tablet:3px;--bblr-mobile:3px;--bbrr:3px;--bbrr-tablet:3px;--bbrr-mobile:3px;--bg:#C9A84C;--bg-tablet:#C9A84C;--bg-mobile:#C9A84C;height:100%"
-                  >
-                    <pre
-                      id="product-badge-content"
-                      class="gp-break-words gp-text-center "
-                      style="--ws:pre-wrap;--ws-tablet:pre-wrap;--ws-mobile:pre-wrap;--fs:normal;--ff:var(--g-font-body, body);--weight:600;--size:13px;--size-mobile:12px;--lh:130%;--lh-tablet:130%;--lh-mobile:130%;--ls:normal;--c:#0A0A0A;--tt:uppercase;--ts:none;--pl:var(--g-s-s);--pr:var(--g-s-s);--pt:var(--g-s-xs);--pb:var(--g-s-xs)"
-                    >{{ content | replace: percentDiscountKey, percentDiscountValue | replace: amountDiscountKey, amountDiscountValue | replace: inventoryQuantityKey, inventoryQuantityValue | replace: minPriceKey, minPriceValue }}</pre>
-                  </div>
-                </div>
-          </div>
-        </div>
-      </gp-product-badge>
-       <script {% if section.settings.section_preload == "false" %}class="gps-link" delay {% else %}src{% endif %}="https://assets.gemcommerce.com/assets-v2/gp-product-badge-v7-5.js?v={{ shop.metafields.GEMPAGES.ASSETS_VERSION }}" defer="defer"></script>
-    {% endif %}
+      style="--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--ta:left;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+      data-keep-class="true"
+      class="gtEYsDjdCi gp-custom-code">
+      <div>
+    <span id="discount-badge" style="background:#C9A84C; color:#fff; font-size:12px; font-weight:700; padding:4px 10px; border-radius:4px;">20% OFF</span>
+<script>
+(function(){
+  var badges = {
+    '1 bottle': '20% OFF',
+    '3 Bottles': '40% OFF',
+    '6 Bottles': '50% OFF'
+  };
+  document.addEventListener('click', function(){
+    setTimeout(function(){
+      var selected = document.querySelector('[data-selected-variant]');
+      if(selected){
+        var text = selected.textContent;
+        for(var key in badges){
+          if(text.indexOf(key) > -1){
+            document.getElementById('discount-badge').textContent = badges[key];
+          }
+        }
+      }
+    }, 100);
+  });
+})();
+</script>
+    </div>
+    </div>
   
     </div>
 
