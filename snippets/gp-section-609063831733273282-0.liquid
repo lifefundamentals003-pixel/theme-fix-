@@ -301,112 +301,7 @@
 </div>
     </div>
     </div>
-  
-    
-
-    
-
-    
-    <gp-row gp-data='{"background":{"desktop":{"attachment":"scroll","color":"transparent","image":{"height":0,"src":"","width":0},"position":{"x":50,"y":50},"repeat":"no-repeat","size":"cover","type":"color"}},"uid":"gutRFr1zVT"}' data-id="gutRFr1zVT" id="gutRFr1zVT" data-same-height-subgrid-container class="gutRFr1zVT gp-relative gp-mx-auto gp-mb-0 gp-grid gp-max-w-full gp-transition-colors gp-duration-200 gp-ease-in-out [&_*]:gp-max-w-full gp-grid-rows-[1fr]" style="--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--op-mobile:100%;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--mb:32px;--mb-mobile:16px;--cg:0px;--cg-mobile:7px;--gtc:minmax(0, auto) minmax(0, auto);--gtc-mobile:minmax(0, auto) minmax(0, auto);--w:var(--g-ct-w, 1200px);--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;--pc:start">
-      
-
-      <div
-      data-same-height-display-contents
-      style="--jc:center"
-      class="g16BHc9Ej_ gp-relative gp-flex gp-flex-col"
-    >
-      
-    
-
-    
-
-    
-    <gp-row gp-data='{"background":{"desktop":{"attachment":"scroll","color":"transparent","image":{"height":0,"src":"","width":0},"position":{"x":50,"y":50},"repeat":"no-repeat","size":"cover","type":"color"}},"uid":"gc9YQSAJ8a"}' data-id="gc9YQSAJ8a" id="gc9YQSAJ8a" data-same-height-subgrid-container class="gc9YQSAJ8a gp-relative gp-mx-auto gp-mb-0 gp-grid gp-max-w-full gp-transition-colors gp-duration-200 gp-ease-in-out [&_*]:gp-max-w-full gp-grid-rows-[1fr]" style="--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--shadow:none;--d:none;--d-mobile:grid;--d-tablet:none;--op:100%;--op-mobile:100%;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--cg:8px;--gtc:minmax(0, 12fr);--w:var(--g-ct-w, 1200px);--w-tablet:var(--g-ct-w, 100%);--w-mobile:120px;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;--pc:start">
-      
-
-      <div
-      data-same-height-display-contents
-      style="--jc:start"
-      class="gG-b8DcCBY gp-relative gp-flex gp-flex-col"
-    >
-      <div gp-el-wrapper style="--bs:solid;--bw:1px 1px 1px 1px;--bc:#B4B4B4;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--op-mobile:100%;--bblr:2px;--bbrr:2px;--btlr:2px;--btrr:2px" class="g67UAFcmW1 ">
-      
-    {%- liquid
-      assign current_variant = product.selected_or_first_available_variant
-      assign available = current_variant.available | default: false
-    -%}
-      <gp-product-quantity
-        data-id="g67UAFcmW1" data-disabled="{%- if available -%} false {%- else -%} true {%- endif -%}"
-        data-price="false"
-        class="quantityClass gp-relative gp-inline-flex gp-h-12 gp-w-full gp-bg-transparent gp-transition-all gp-duration-150 data-[disabled=true]:gp-opacity-60 "
-        style="--h:45px;--h-mobile:42px;--jc:left"
-      >
-        <div class="gp-inline-flex gp-w-full gp-overflow-hidden" style="--maxw:140px;--maxw-mobile:[object Object];--b:none;--bc:#7D7D7D;--bw:1px 1px 1px 1px;--shadow:none">
-          
-              <button
-              {% if available == false %} disabled {% endif %}
-               title="Decrement" aria-label="decrement" type="button"
-                class="gp-flex gp-aspect-square gp-h-full disabled:gp-cursor-not-allowed gp-cursor-pointer gp-items-center gp-justify-center gp-outline-none gp-minus  gp-bg-g-bg-3"
-                style="--w:45px;--w-mobile:45px;--hvr-bg:#ffffff;--bg:var(--g-c-bg-3, bg-3);--c:#575757"
-              >
-                <span class="gp-inline-flex gp-items-center gp-justify-center [&>*]:gp-h-full [&>*]:gp-w-full" style="--w:20px;--w-tablet:20px;--w-mobile:12px"
-                >
-                  <svg
-      xmlns="http://www.w3.org/2000/svg"
-      className="gp-h-full gp-w-full"
-      fill="none"
-      viewBox="0 0 24 24"
-      stroke="currentColor"
-      >
-      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18 12H6" />
-      </svg>
-                </span>
-              </button>
-            
-          <input
-            {% if available == false %} disabled {% endif %}
-            type="text" name="quantity" step="1" min="1" aria-label="quantity" inputMode="numeric" quantity="current_variant.quantity" autocomplete="off" value="1"
-            class="gp-flex gp-w-full gp-shrink-[99999] gp-appearance-none gp-items-center gp-text-center gp-outline-none focus-visible:gp-shadow-none focus-visible:gp-outline-none gp-transition-all gp-duration-150 hover:gp-text-black disabled:gp-cursor-not-allowed gp-bg-g-bg-3 "
-            style="--fs:normal;--ff:var(--g-font-body, body);--weight:700;--size:13px;--size-tablet:13px;--size-mobile:14px;--lh:130%;--lh-tablet:130%;--lh-mobile:130%;--c:#242424;--bg:var(--g-c-bg-3, bg-3);--hvr-c:#242424;--brw:1px;--hvr-brw:1px;--blw:1px;--hvr-blw:1px;--brc:transparent;--blc:transparent"
-            inputMode="numeric"
-          />
-
-          
-            <button
-              {% if available == false %} disabled {% endif %}
-              title="Increment" aria-label="increment" type="button"
-              class="gp-flex gp-aspect-square gp-h-full disabled:gp-cursor-not-allowed gp-cursor-pointer gp-items-center gp-justify-center gp-outline-none gp-plus  gp-bg-g-bg-3"
-              style="--w:45px;--w-mobile:45px;--hvr-bg:#ffffff;--bg:var(--g-c-bg-3, bg-3);--c:#575757"
-            >
-              <span class="gp-inline-flex gp-items-center gp-justify-center [&>*]:gp-h-full [&>*]:gp-w-full" style="--w:20px;--w-tablet:20px;--w-mobile:12px">
-                <svg
-      xmlns="http://www.w3.org/2000/svg"
-      fill="none"
-      viewBox="0 0 24 24"
-      stroke="currentColor"
-    >
-      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"
-      />
-    </svg>
-              </span>
-            </button>
-          
-          </div>
-        </gp-product-quantity>
-      <script {% if section.settings.section_preload == "false" %}class="gps-link" delay {% else %}src{% endif %}="https://assets.gemcommerce.com/assets-v2/gp-product-quantity-v7-5.js?v={{ shop.metafields.GEMPAGES.ASSETS_VERSION }}" defer="defer"></script>
-      </div>
-    </div>
-
-      
-    </gp-row>
-  
-  
-    </div><div
-      data-same-height-display-contents
-      style="--jc:center"
-      class="gicHLNdN10 gp-relative gp-flex gp-flex-col"
-    >
-      <div gp-el-wrapper style="--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--op-mobile:100%;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--mb:32px;--mb-mobile:21px" class="gn3ICPmqMs ">
+  <div gp-el-wrapper style="--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--op-mobile:100%;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--mb:32px;--mb-mobile:21px" class="gn3ICPmqMs ">
       
     {%- assign total_combinations = 1 -%}
     {% for option in product.options_with_values %}{%- assign total_combinations = total_combinations | times: option.values.size -%}{% endfor %}
@@ -1334,6 +1229,111 @@
     <script {% if section.settings.section_preload == "false" %}class="gps-link" delay {% else %}src{% endif %}="https://assets.gemcommerce.com/assets-v2/gp-product-variant-v7-5.js?v={{ shop.metafields.GEMPAGES.ASSETS_VERSION }}" defer="defer"></script>
   
       </div>
+    
+
+    
+
+    
+    <gp-row gp-data='{"background":{"desktop":{"attachment":"scroll","color":"transparent","image":{"height":0,"src":"","width":0},"position":{"x":50,"y":50},"repeat":"no-repeat","size":"cover","type":"color"}},"uid":"gutRFr1zVT"}' data-id="gutRFr1zVT" id="gutRFr1zVT" data-same-height-subgrid-container class="gutRFr1zVT gp-relative gp-mx-auto gp-mb-0 gp-grid gp-max-w-full gp-transition-colors gp-duration-200 gp-ease-in-out [&_*]:gp-max-w-full gp-grid-rows-[1fr]" style="--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--op-mobile:100%;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--mb:32px;--mb-mobile:16px;--cg:0px;--cg-mobile:7px;--gtc:minmax(0, auto) minmax(0, auto);--gtc-mobile:minmax(0, auto) minmax(0, auto);--w:var(--g-ct-w, 1200px);--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;--pc:start">
+      
+
+      <div
+      data-same-height-display-contents
+      style="--jc:center"
+      class="g16BHc9Ej_ gp-relative gp-flex gp-flex-col"
+    >
+      
+    
+
+    
+
+    
+    <gp-row gp-data='{"background":{"desktop":{"attachment":"scroll","color":"transparent","image":{"height":0,"src":"","width":0},"position":{"x":50,"y":50},"repeat":"no-repeat","size":"cover","type":"color"}},"uid":"gc9YQSAJ8a"}' data-id="gc9YQSAJ8a" id="gc9YQSAJ8a" data-same-height-subgrid-container class="gc9YQSAJ8a gp-relative gp-mx-auto gp-mb-0 gp-grid gp-max-w-full gp-transition-colors gp-duration-200 gp-ease-in-out [&_*]:gp-max-w-full gp-grid-rows-[1fr]" style="--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--shadow:none;--d:none;--d-mobile:grid;--d-tablet:none;--op:100%;--op-mobile:100%;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--cg:8px;--gtc:minmax(0, 12fr);--w:var(--g-ct-w, 1200px);--w-tablet:var(--g-ct-w, 100%);--w-mobile:120px;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;--pc:start">
+      
+
+      <div
+      data-same-height-display-contents
+      style="--jc:start"
+      class="gG-b8DcCBY gp-relative gp-flex gp-flex-col"
+    >
+      <div gp-el-wrapper style="--bs:solid;--bw:1px 1px 1px 1px;--bc:#B4B4B4;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--op-mobile:100%;--bblr:2px;--bbrr:2px;--btlr:2px;--btrr:2px" class="g67UAFcmW1 ">
+      
+    {%- liquid
+      assign current_variant = product.selected_or_first_available_variant
+      assign available = current_variant.available | default: false
+    -%}
+      <gp-product-quantity
+        data-id="g67UAFcmW1" data-disabled="{%- if available -%} false {%- else -%} true {%- endif -%}"
+        data-price="false"
+        class="quantityClass gp-relative gp-inline-flex gp-h-12 gp-w-full gp-bg-transparent gp-transition-all gp-duration-150 data-[disabled=true]:gp-opacity-60 "
+        style="--h:45px;--h-mobile:42px;--jc:left"
+      >
+        <div class="gp-inline-flex gp-w-full gp-overflow-hidden" style="--maxw:140px;--maxw-mobile:[object Object];--b:none;--bc:#7D7D7D;--bw:1px 1px 1px 1px;--shadow:none">
+          
+              <button
+              {% if available == false %} disabled {% endif %}
+               title="Decrement" aria-label="decrement" type="button"
+                class="gp-flex gp-aspect-square gp-h-full disabled:gp-cursor-not-allowed gp-cursor-pointer gp-items-center gp-justify-center gp-outline-none gp-minus  gp-bg-g-bg-3"
+                style="--w:45px;--w-mobile:45px;--hvr-bg:#ffffff;--bg:var(--g-c-bg-3, bg-3);--c:#575757"
+              >
+                <span class="gp-inline-flex gp-items-center gp-justify-center [&>*]:gp-h-full [&>*]:gp-w-full" style="--w:20px;--w-tablet:20px;--w-mobile:12px"
+                >
+                  <svg
+      xmlns="http://www.w3.org/2000/svg"
+      className="gp-h-full gp-w-full"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke="currentColor"
+      >
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18 12H6" />
+      </svg>
+                </span>
+              </button>
+            
+          <input
+            {% if available == false %} disabled {% endif %}
+            type="text" name="quantity" step="1" min="1" aria-label="quantity" inputMode="numeric" quantity="current_variant.quantity" autocomplete="off" value="1"
+            class="gp-flex gp-w-full gp-shrink-[99999] gp-appearance-none gp-items-center gp-text-center gp-outline-none focus-visible:gp-shadow-none focus-visible:gp-outline-none gp-transition-all gp-duration-150 hover:gp-text-black disabled:gp-cursor-not-allowed gp-bg-g-bg-3 "
+            style="--fs:normal;--ff:var(--g-font-body, body);--weight:700;--size:13px;--size-tablet:13px;--size-mobile:14px;--lh:130%;--lh-tablet:130%;--lh-mobile:130%;--c:#242424;--bg:var(--g-c-bg-3, bg-3);--hvr-c:#242424;--brw:1px;--hvr-brw:1px;--blw:1px;--hvr-blw:1px;--brc:transparent;--blc:transparent"
+            inputMode="numeric"
+          />
+
+          
+            <button
+              {% if available == false %} disabled {% endif %}
+              title="Increment" aria-label="increment" type="button"
+              class="gp-flex gp-aspect-square gp-h-full disabled:gp-cursor-not-allowed gp-cursor-pointer gp-items-center gp-justify-center gp-outline-none gp-plus  gp-bg-g-bg-3"
+              style="--w:45px;--w-mobile:45px;--hvr-bg:#ffffff;--bg:var(--g-c-bg-3, bg-3);--c:#575757"
+            >
+              <span class="gp-inline-flex gp-items-center gp-justify-center [&>*]:gp-h-full [&>*]:gp-w-full" style="--w:20px;--w-tablet:20px;--w-mobile:12px">
+                <svg
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke="currentColor"
+    >
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"
+      />
+    </svg>
+              </span>
+            </button>
+          
+          </div>
+        </gp-product-quantity>
+      <script {% if section.settings.section_preload == "false" %}class="gps-link" delay {% else %}src{% endif %}="https://assets.gemcommerce.com/assets-v2/gp-product-quantity-v7-5.js?v={{ shop.metafields.GEMPAGES.ASSETS_VERSION }}" defer="defer"></script>
+      </div>
+    </div>
+
+      
+    </gp-row>
+  
+  
+    </div><div
+      data-same-height-display-contents
+      style="--jc:center"
+      class="gicHLNdN10 gp-relative gp-flex gp-flex-col"
+    >
+      
     {%- assign total_combinations = 1 -%}
     {% for option in product.options_with_values %}{%- assign total_combinations = total_combinations | times: option.values.size -%}{% endfor %}
     {%- liquid
