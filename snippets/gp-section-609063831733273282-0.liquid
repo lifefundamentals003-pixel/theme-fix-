@@ -1334,35 +1334,6 @@
     <script {% if section.settings.section_preload == "false" %}class="gps-link" delay {% else %}src{% endif %}="https://assets.gemcommerce.com/assets-v2/gp-product-variant-v7-5.js?v={{ shop.metafields.GEMPAGES.ASSETS_VERSION }}" defer="defer"></script>
   
       </div>
-  
-    <div
-      
-      style="--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--mb:32px;--mb-tablet:0px;--mb-mobile:0px;--ta:left;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
-      data-keep-class="true"
-      class="giNOuW4ezt gp-custom-code">
-      <div>
-    <div style="font-family:Inter,sans-serif; margin:12px 0;">
-  <div style="display:flex; align-items:center; gap:8px;">
-    <span style="color:#22c55e; font-size:10px;">●</span>
-    <span id="ship-date" style="font-size:14px; color:#22c55e; line-height:1.5;"></span>
-  </div>
-</div>
-<script>
-(function(){
-  var d = new Date();
-  var added = 0;
-  while(added < 2){
-    d.setDate(d.getDate()+1);
-    if(d.getDay()!==0 && d.getDay()!==6) added++;
-  }
-  var days = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
-  var months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
-  document.getElementById('ship-date').textContent = 'Ships by ' + days[d.getDay()] + ', ' + months[d.getMonth()] + ' ' + d.getDate() + ' from our US warehouse';
-})();
-</script>
-    </div>
-    </div>
-  
     {%- assign total_combinations = 1 -%}
     {% for option in product.options_with_values %}{%- assign total_combinations = total_combinations | times: option.values.size -%}{% endfor %}
     {%- liquid
@@ -1532,6 +1503,35 @@
   
     </gp-product-button>
     <script {% if section.settings.section_preload == "false" %}class="gps-link" delay {% else %}src{% endif %}="https://assets.gemcommerce.com/assets-v2/gp-product-button-v7-5.js?v={{ shop.metafields.GEMPAGES.ASSETS_VERSION }}" defer="defer"></script>
+  
+  
+    <div
+      
+      style="--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--mb:32px;--mb-tablet:0px;--mb-mobile:0px;--ta:left;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+      data-keep-class="true"
+      class="giNOuW4ezt gp-custom-code">
+      <div>
+    <div style="font-family:Inter,sans-serif; margin:12px 0;">
+  <div style="display:flex; align-items:center; gap:8px;">
+    <span style="color:#22c55e; font-size:10px;">●</span>
+    <span id="ship-date" style="font-size:14px; color:#22c55e; line-height:1.5;"></span>
+  </div>
+</div>
+<script>
+(function(){
+  var d = new Date();
+  var added = 0;
+  while(added < 2){
+    d.setDate(d.getDate()+1);
+    if(d.getDay()!==0 && d.getDay()!==6) added++;
+  }
+  var days = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
+  var months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+  document.getElementById('ship-date').textContent = 'Ships by ' + days[d.getDay()] + ', ' + months[d.getMonth()] + ' ' + d.getDate() + ' from our US warehouse';
+})();
+</script>
+    </div>
+    </div>
   
     </div>
 
