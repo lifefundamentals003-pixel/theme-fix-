@@ -24,6 +24,7 @@
       "block_order": [
         "message_amPNJe"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "",
         "enable_sticky": true,
@@ -35,6 +36,7 @@
     },
     "header": {
       "type": "header",
+      "disabled": true,
       "custom_css": [
         ".header__icon--cart,cart-notification,a[href=\"/cart\"],.header [href=\"/cart\"] {display: none !important;}"
       ],
