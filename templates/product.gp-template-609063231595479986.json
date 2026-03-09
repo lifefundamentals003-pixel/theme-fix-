@@ -98,6 +98,12 @@
         "checksum": "01b0c242a953dc25a3c3357a1d364ed1b73556d9d189ddf340cde807af7bc1f8_1_1_1_0__1"
       },
       "type": "gp-section-609951857476895305"
+    },
+    "gp_section_609952456373174857": {
+      "settings": {
+        "checksum": "70d0fe5fd52957bb866a5b65a3c002215db71edc8ca52659c4a1328f96ada40e_1_1_1_0__1"
+      },
+      "type": "gp-section-609952456373174857"
     }
   },
   "order": [
@@ -114,6 +120,7 @@
     "gp_section_609067705105908696",
     "gp_section_609951244219318857",
     "gp_section_609951857476895305",
+    "gp_section_609952456373174857",
     "gp_section_609067747770368706"
   ]
 }
