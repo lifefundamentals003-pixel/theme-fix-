@@ -113,19 +113,5 @@
         {%- sections 'footer-group' -%}
       {%- endif -%}
     </main>
-<script>
-(function() {
-  var origFetch = window.fetch;
-  window.fetch = function(url, options) {
-    var result = origFetch.apply(this, arguments);
-    if (typeof url === 'string' && url.includes('/cart/add')) {
-      result.then(function() {
-        window.location.href = '/checkout';
-      });
-    }
-    return result;
-  };
-})();
-</script>
   </body>
 </html>
