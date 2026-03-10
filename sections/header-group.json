@@ -13,17 +13,7 @@
   "sections": {
     "announcement-bar": {
       "type": "announcement-bar",
-      "blocks": {
-        "message_amPNJe": {
-          "type": "message",
-          "settings": {
-            "text": "🛡 90-DAY COMEBACK PROMISE · FEEL THE DIFFERENCE OR PAY NOTHING"
-          }
-        }
-      },
-      "block_order": [
-        "message_amPNJe"
-      ],
+      "custom_css": [],
       "settings": {
         "color_scheme": "",
         "enable_sticky": true,
