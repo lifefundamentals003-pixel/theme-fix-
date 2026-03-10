@@ -13,6 +13,17 @@
   "sections": {
     "announcement-bar": {
       "type": "announcement-bar",
+      "blocks": {
+        "message_mTHC3A": {
+          "type": "message",
+          "settings": {
+            "text": "UP TO 52% OFF + FREE GIFTS"
+          }
+        }
+      },
+      "block_order": [
+        "message_mTHC3A"
+      ],
       "custom_css": [],
       "settings": {
         "color_scheme": "",
