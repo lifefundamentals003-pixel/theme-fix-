@@ -1,0 +1,135 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "gp_section_610077273172738617": {
+      "settings": {
+        "checksum": "4e4883f187dc36bf1648ef7269a4e72e7b47d6ebebd9f5647f2708b6158ac5ce_1_1_1_0__1"
+      },
+      "type": "gp-section-610077273172738617"
+    },
+    "gp_section_610077273172804153": {
+      "settings": {
+        "checksum": "9e9a1f3b728efdbafad1d45e040ec1e7957f4079ab2998e6902993c9a661bcdd_1_1_1_0__1"
+      },
+      "type": "gp-section-610077273172804153"
+    },
+    "gp_section_610077273172869689": {
+      "settings": {
+        "checksum": "eb2817b45d73971426d49de96a1c0c93ebf5a0fc0ec6fc466b7cb2c225777c22_1_1_1_0__1"
+      },
+      "type": "gp-section-610077273172869689"
+    },
+    "gp_section_610077273172935225": {
+      "settings": {
+        "checksum": "61e0b1f92261a103078a714e763750e67b9616dd4beeaaa10421f1397aee1ce7_1_1_1_0__1"
+      },
+      "type": "gp-section-610077273172935225"
+    },
+    "gp_section_610077273173000761": {
+      "settings": {
+        "checksum": "5309cea17faf31ab26d003e1bc622a40c1976c001c2a28867015feb0dc1513a2_1_1_1_0__1"
+      },
+      "type": "gp-section-610077273173000761"
+    },
+    "gp_section_610077273173066297": {
+      "settings": {
+        "checksum": "4e488e5b144e37f3fa8ea31a14825476f7499f9162fab80e8ce503c93ec890e0_1_1_1_0__1"
+      },
+      "type": "gp-section-610077273173066297"
+    },
+    "gp_section_610077273173131833": {
+      "settings": {
+        "checksum": "941e7b9dbb6c6d661fa3fa184d7d48f1c2d05d5c9e477e37c959901c8347af7b_1_1_1_0__1"
+      },
+      "type": "gp-section-610077273173131833"
+    },
+    "gp_section_610077273173197369": {
+      "settings": {
+        "checksum": "3867624961080d6e6b7612428ddb14259e9a4e1c5bab87be3936784ddbf43416_1_1_1_0__1"
+      },
+      "type": "gp-section-610077273173197369"
+    },
+    "gp_section_610077273173262905": {
+      "settings": {
+        "checksum": "c5948a907fa44ee2d5e472b6630b0b94133b28e8ea55288686960df1ba8a0ca3_1_1_1_0__1"
+      },
+      "type": "gp-section-610077273173262905"
+    },
+    "gp_section_610077273173328441": {
+      "settings": {
+        "checksum": "5b7bb639b4ddda9e118f432677c3a521f5e468c7d1db1aadca79f79247e380f0_1_1_1_0__1"
+      },
+      "type": "gp-section-610077273173328441"
+    },
+    "gp_section_610077273173393977": {
+      "settings": {
+        "checksum": "d91351259080e0d41dbc6f6daac43be0a2cfbdcc3e05a0ee5521afbc4328b4a6_1_1_1_0__1"
+      },
+      "type": "gp-section-610077273173393977"
+    },
+    "gp_section_610077273173459513": {
+      "settings": {
+        "checksum": "7884e53af89858c0246320a944ade072eb24efb13ca138fff4eb8cb2bf736bee_1_1_1_0__1"
+      },
+      "type": "gp-section-610077273173459513"
+    },
+    "gp_section_610077273173525049": {
+      "settings": {
+        "checksum": "76bab4f8ffa82370562a96e321c8acfb4e701854c350f4a27ce8f9e078967965_1_1_1_0__1"
+      },
+      "type": "gp-section-610077273173525049"
+    },
+    "gp_section_610077273173590585": {
+      "settings": {
+        "checksum": "a8dc07054386e486eeb7bf2b5284d99359538dd991087c8e096ef6b359023a16_1_1_1_0__1"
+      },
+      "type": "gp-section-610077273173590585"
+    },
+    "gp_section_610077273173656121": {
+      "block_order": [
+        "gp_app_kaching-bundles_gBu2L5lftl"
+      ],
+      "blocks": {
+        "gp_app_kaching-bundles_gBu2L5lftl": {
+          "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
+          "settings": {
+            "product": "{{ product }}"
+          }
+        }
+      },
+      "settings": {
+        "checksum": "67187efe3d7fb39567188dfad4b1f07cb952ae8da6d9419dac95047c55ea6ecf_1_1_1_0__1",
+        "ggtFkyKoLMa_label": "ADD TO CART",
+        "ggtFkyKoLMa_outOfStockLabel": "Out of stock",
+        "ggtFkyKoLMa_unavailableLabel": "Unavailable",
+        "section_preload": "true"
+      },
+      "type": "gp-section-610077273173656121"
+    }
+  },
+  "order": [
+    "gp_section_610077273173656121",
+    "gp_section_610077273172869689",
+    "gp_section_610077273173000761",
+    "gp_section_610077273173459513",
+    "gp_section_610077273173066297",
+    "gp_section_610077273172935225",
+    "gp_section_610077273173525049",
+    "gp_section_610077273173197369",
+    "gp_section_610077273173262905",
+    "gp_section_610077273173131833",
+    "gp_section_610077273173328441",
+    "gp_section_610077273173590585",
+    "gp_section_610077273172738617",
+    "gp_section_610077273172804153",
+    "gp_section_610077273173393977"
+  ]
+}
