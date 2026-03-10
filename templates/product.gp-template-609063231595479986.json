@@ -10,112 +10,100 @@
 {
   "sections": {
     "gp_section_609063831733273282": {
-      "type": "gp-section-609063831733273282",
       "settings": {
-        "section_preload": "true",
-        "checksum": "521e387ade632caae5a4447f49491fe7d57f27c4083cda6332f17e117defc295_1_1_1_0__1",
+        "checksum": "f56f70ddcc3cabc99f885e854c8282e2f9e7ab7dd7e538907313704c77d4e5ea_1_1_1_0__1",
         "ggtFkyKoLMa_label": "START THE PROTOCOL",
         "ggtFkyKoLMa_outOfStockLabel": "Out of stock",
-        "ggtFkyKoLMa_unavailableLabel": "Unavailable"
-      }
+        "ggtFkyKoLMa_unavailableLabel": "Unavailable",
+        "section_preload": "true"
+      },
+      "type": "gp-section-609063831733273282"
     },
     "gp_section_609065798006277042": {
-      "type": "gp-section-609065798006277042",
       "settings": {
-        "section_preload": "true",
-        "checksum": "147711b94d97ea8c02f8ef2c7d6a9806a47ecaa35c1eb5215f1de2ebcdda06f9_1_1_1_0__1"
-      }
+        "checksum": "147711b94d97ea8c02f8ef2c7d6a9806a47ecaa35c1eb5215f1de2ebcdda06f9_1_1_1_0__1",
+        "section_preload": "true"
+      },
+      "type": "gp-section-609065798006277042"
     },
     "gp_section_609065977153323714": {
-      "type": "gp-section-609065977153323714",
       "settings": {
-        "section_preload": "true",
-        "checksum": "41c60621997093c7cd7e8c48469eabc6229a3379ad9ddf85a31d6749b4071f8e_1_1_1_0__1"
-      }
+        "checksum": "41c60621997093c7cd7e8c48469eabc6229a3379ad9ddf85a31d6749b4071f8e_1_1_1_0__1",
+        "section_preload": "true"
+      },
+      "type": "gp-section-609065977153323714"
     },
     "gp_section_609066219365991106": {
-      "type": "gp-section-609066219365991106",
       "settings": {
-        "section_preload": "false",
         "checksum": "f7c4b094fcca0cc9f92e1a560c644b5fa892aa440f5b1e0411d1640ac5cafcf2_1_1_1_0__1"
-      }
+      },
+      "type": "gp-section-609066219365991106"
     },
     "gp_section_609066275754214048": {
-      "type": "gp-section-609066275754214048",
       "settings": {
-        "section_preload": "false",
         "checksum": "be89279b4c5140bd21c97be1cb82e70ff71561c934dc8be5057431da4c193f8a_1_1_1_0__1"
-      }
+      },
+      "type": "gp-section-609066275754214048"
     },
     "gp_section_609066560966886322": {
-      "type": "gp-section-609066560966886322",
       "settings": {
-        "section_preload": "false",
         "checksum": "d9a94991ee55f935eda881b562a99e8b954de0e28bfc32ff64ffcd757d33a919_1_1_1_0__1"
-      }
+      },
+      "type": "gp-section-609066560966886322"
     },
     "gp_section_609067031936893634": {
-      "type": "gp-section-609067031936893634",
       "settings": {
-        "section_preload": "false",
         "checksum": "f028ad487f9dad762144aa007a6c0f0852aa8868f0eb189ac867d376826fa81b_1_1_1_0__1"
-      }
+      },
+      "type": "gp-section-609067031936893634"
     },
     "gp_section_609067330772665026": {
-      "type": "gp-section-609067330772665026",
       "settings": {
-        "section_preload": "false",
         "checksum": "28ebd64faef2250a0a741211f553b7e6f9df7e3d2b9c39d0c77436da80171fcd_1_1_1_0__1"
-      }
+      },
+      "type": "gp-section-609067330772665026"
     },
     "gp_section_609067433885434802": {
-      "type": "gp-section-609067433885434802",
       "settings": {
-        "section_preload": "false",
         "checksum": "843ee83dc94bb0138636633ea550d158ef449628904e2f11b0fd38e69dfcb5de_1_1_1_0__1"
-      }
+      },
+      "type": "gp-section-609067433885434802"
     },
     "gp_section_609067518929142432": {
-      "type": "gp-section-609067518929142432",
       "settings": {
-        "section_preload": "false",
         "checksum": "1113435d70bd3f7ea0a3aee0163f9f69f7188eafbb5db97371988f30a122304e_1_1_1_0__1"
-      }
+      },
+      "type": "gp-section-609067518929142432"
     },
     "gp_section_609067705105908696": {
-      "type": "gp-section-609067705105908696",
       "settings": {
-        "section_preload": "false",
         "checksum": "6a425623c5f154074682b7ad0fbbe729c81878a0764bf226d5c1aa1b31852b8c_1_1_1_0__1"
-      }
-    },
-    "gp_section_609951244219318857": {
-      "type": "gp-section-609951244219318857",
-      "settings": {
-        "section_preload": "false",
-        "checksum": "714a2042fb43abe10b3b0252e63a0c886e4dca43407d790aec2a921acb8eeee7_1_1_1_0__1"
-      }
-    },
-    "gp_section_609951857476895305": {
-      "type": "gp-section-609951857476895305",
-      "settings": {
-        "section_preload": "false",
-        "checksum": "01b0c242a953dc25a3c3357a1d364ed1b73556d9d189ddf340cde807af7bc1f8_1_1_1_0__1"
-      }
-    },
-    "gp_section_609952456373174857": {
-      "type": "gp-section-609952456373174857",
-      "settings": {
-        "section_preload": "false",
-        "checksum": "70d0fe5fd52957bb866a5b65a3c002215db71edc8ca52659c4a1328f96ada40e_1_1_1_0__1"
-      }
+      },
+      "type": "gp-section-609067705105908696"
     },
     "gp_section_609067747770368706": {
-      "type": "gp-section-609067747770368706",
       "settings": {
-        "section_preload": "false",
         "checksum": "b3a7341fb7bfe6a56a0a2c94081d642321b88265d36d56244040ae43a37cfc9a_1_1_1_0__1"
-      }
+      },
+      "type": "gp-section-609067747770368706"
+    },
+    "gp_section_609951244219318857": {
+      "settings": {
+        "checksum": "714a2042fb43abe10b3b0252e63a0c886e4dca43407d790aec2a921acb8eeee7_1_1_1_0__1"
+      },
+      "type": "gp-section-609951244219318857"
+    },
+    "gp_section_609951857476895305": {
+      "settings": {
+        "checksum": "01b0c242a953dc25a3c3357a1d364ed1b73556d9d189ddf340cde807af7bc1f8_1_1_1_0__1"
+      },
+      "type": "gp-section-609951857476895305"
+    },
+    "gp_section_609952456373174857": {
+      "settings": {
+        "checksum": "70d0fe5fd52957bb866a5b65a3c002215db71edc8ca52659c4a1328f96ada40e_1_1_1_0__1"
+      },
+      "type": "gp-section-609952456373174857"
     }
   },
   "order": [
