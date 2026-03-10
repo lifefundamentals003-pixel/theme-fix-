@@ -522,7 +522,7 @@
   "shopify": {
     "checkout": {
       "general": {
-        "pay_now_button_label": "Start My Comeback",
+        "pay_now_button_label": "Pay now",
         "complete_purchase_button_label": "Pay now"
       }
     }
