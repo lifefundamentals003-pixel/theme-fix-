@@ -101,12 +101,12 @@
         "gp_app_kaching-bundles_gBu2L5lftl": {
           "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
           "settings": {
-            "product": "{{ product }}"
+            "product": "test-fundamentals-the-upstream-fix-most-men-never-find"
           }
         }
       },
       "settings": {
-        "checksum": "6d6112da7479a18b7869bb4e7fc84c17f8145667aa2e2bd2004ac104bda0ab8d_1_1_1_0__1",
+        "checksum": "d32e50e6e7d4b5b9616681ae8bbf79fd626691da651d7e7ceb9ae29beaf6e80e_1_1_1_0__1",
         "ggtFkyKoLMa_label": "ADD TO CART",
         "ggtFkyKoLMa_outOfStockLabel": "Out of stock",
         "ggtFkyKoLMa_unavailableLabel": "Unavailable",
