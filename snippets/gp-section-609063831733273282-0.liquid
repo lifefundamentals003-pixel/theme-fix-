@@ -1180,24 +1180,31 @@
       class="gMtk4ApRw5 gp-custom-code">
       <div>
     <div style="font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif; max-width: 600px; margin: 0 auto; padding: 16px 16px 0 16px;">
-  
+
   <div style="text-align: center; margin-bottom: 14px;">
     <h3 style="font-size: 16px; font-weight: 800; color: #1a1a1a; margin: 0;">Free Gifts With Your First Order!</h3>
   </div>
 
   <div style="display: flex; gap: 8px; margin-bottom: 4px;">
-    <!-- Gift 1: Test Optimization Guide -->
-    <div style="flex: 1; min-width: 0; border: 2px solid #c9a84c; border-radius: 10px; padding: 10px 8px 10px 8px; background: #fff; position: relative; text-align: center;">
-      <div style="position: absolute; top: -11px; left: 50%; transform: translateX(-50%); background: #c9a84c; color: white; font-size: 10px; font-weight: 800; padding: 2px 8px; border-radius: 4px; white-space: nowrap;">FREE <span style="text-decoration: line-through; opacity: 0.85; font-weight: 400;">$19.99</span></div>
-      <div style="font-size: 36px; margin: 10px 0 8px 0;">📘</div>
+
+    <div style="flex: 1; min-width: 0; border: 2px solid #c9a84c; border-radius: 10px; padding: 12px 8px 10px 8px; background: #fff; position: relative; text-align: center;">
+      <div style="position: absolute; top: -1px; left: -1px; background: #c9a84c; color: white; font-size: 10px; font-weight: 800; padding: 3px 8px; border-radius: 10px 0 10px 0; white-space: nowrap;">FREE <span style="text-decoration: line-through; opacity: 0.85; font-weight: 400;">$19.99</span></div>
+      <div style="font-size: 36px; margin: 14px 0 8px 0;">📘</div>
       <p style="font-size: 11px; font-weight: 700; color: #1a1a1a; margin: 0; line-height: 1.3;">Test Optimization<br>Guide</p>
     </div>
-    <!-- Gift 2: Foundation Academy -->
-    <div style="flex: 1; min-width: 0; border: 2px solid #c9a84c; border-radius: 10px; padding: 10px 8px 10px 8px; background: #fff; position: relative; text-align: center;">
-      <div style="position: absolute; top: -11px; left: 50%; transform: translateX(-50%); background: #c9a84c; color: white; font-size: 10px; font-weight: 800; padding: 2px 8px; border-radius: 4px; white-space: nowrap;">FREE <span style="text-decoration: line-through; opacity: 0.85; font-weight: 400;">$97</span></div>
-      <div style="font-size: 36px; margin: 10px 0 8px 0;">🏛️</div>
+
+    <div style="flex: 1; min-width: 0; border: 2px solid #c9a84c; border-radius: 10px; padding: 12px 8px 10px 8px; background: #fff; position: relative; text-align: center;">
+      <div style="position: absolute; top: -1px; left: -1px; background: #c9a84c; color: white; font-size: 10px; font-weight: 800; padding: 3px 8px; border-radius: 10px 0 10px 0; white-space: nowrap;">FREE <span style="text-decoration: line-through; opacity: 0.85; font-weight: 400;">$97</span></div>
+      <div style="font-size: 36px; margin: 14px 0 8px 0;">🏛️</div>
       <p style="font-size: 11px; font-weight: 700; color: #1a1a1a; margin: 0; line-height: 1.3;">Foundation<br>Academy</p>
     </div>
+
+    <div style="flex: 1; min-width: 0; border: 2px solid #c9a84c; border-radius: 10px; padding: 12px 8px 10px 8px; background: #fff; position: relative; text-align: center;">
+      <div style="position: absolute; top: -1px; left: -1px; background: #c9a84c; color: white; font-size: 10px; font-weight: 800; padding: 3px 8px; border-radius: 10px 0 10px 0; white-space: nowrap;">FREE</div>
+      <div style="font-size: 36px; margin: 14px 0 8px 0;">🚚</div>
+      <p style="font-size: 11px; font-weight: 700; color: #1a1a1a; margin: 0; line-height: 1.3;">FREE Priority<br>Shipping</p>
+    </div>
+
   </div>
 </div>
     </div>
@@ -1216,7 +1223,7 @@
       class="gp-product-button"
       gp-label-out-of-stock="{{ section.settings.ggtFkyKoLMa_outOfStockLabel }}"
       gp-label-unavailable="{{ section.settings.ggtFkyKoLMa_unavailableLabel }}"
-      gp-data='{"styles":{"errorTypo":{"attrs":{"color":"error"},"type":"paragraph-2"},"successTypo":{"attrs":{"color":"success"},"type":"paragraph-2"}},"setting":{"errorType":"built-in","actionEffect":"buy-now","enableMessage":true,"label":"START THE PROTOCOL","errorMessage":"Cannot add product to cart","successMessage":"Add product to cart successfully","outOfStockLabel":"Out of stock","customURL":{"link":"/cart","target":"_self"}},"variantID":"{{variant.id}}","disabled":"{{variant.available}}","totalVariant":"{{total_combinations}}"}'
+      gp-data='{"styles":{"errorTypo":{"attrs":{"color":"error"},"type":"paragraph-2"},"successTypo":{"attrs":{"color":"success"},"type":"paragraph-2"}},"setting":{"errorType":"built-in","actionEffect":"open-cart-drawer","enableMessage":true,"label":"ADD TO CART","errorMessage":"Cannot add product to cart","successMessage":"Add product to cart successfully","outOfStockLabel":"Out of stock","customURL":{"link":"/cart","target":"_self"}},"variantID":"{{variant.id}}","disabled":"{{variant.available}}","totalVariant":"{{total_combinations}}"}'
       data-variant-selection-required-message=""
       gp-enable-third-partycart="{{shop.metafields.GEMPAGES.enableThirdPartyCart}}"
     >
@@ -1259,7 +1266,7 @@
   }</style>
         
         <button
-          data-id="gtFkyKoLMa" dataId="gtFkyKoLMa" data-state="idle" aria-label="START THE PROTOCOL"
+          data-id="gtFkyKoLMa" dataId="gtFkyKoLMa" data-state="idle" aria-label="ADD TO CART"
           name="add" gp-data-hidden="{% unless variant.available %}true{% endunless %}"
           type="submit"
           style="--w:1000px;--w-tablet:1000px;--w-mobile:1000px;--h:Auto;--h-tablet:Auto;--h-mobile:Auto;--pl:24px;--pr:24px;--pt:14px;--pb:14px;--pl-mobile:12px;--pr-mobile:12px;--pt-mobile:12px;--pb-mobile:12px;--bblr:4px;--bbrr:4px;--btlr:4px;--btrr:4px;--hvr-bblr:4px;--hvr-bbrr:4px;--hvr-btlr:4px;--hvr-btrr:4px;--shadow:none;--bgi:;--hvr-bgi:;--hvr-bg:#575757;--bg:#C9A84C;--c:#0A0A0A;--fs:normal;--ff:var(--g-font-body, body);--weight:700;--size:16px;--size-tablet:16px;--size-mobile:14px;--lh:130%;--lh-tablet:130%;--lh-mobile:130%;--ls:normal"
