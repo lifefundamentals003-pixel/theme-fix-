@@ -10,109 +10,109 @@
 {
   "sections": {
     "gp_section_610077273172738617": {
+      "type": "gp-section-610077273172738617",
       "settings": {
         "checksum": "4e4883f187dc36bf1648ef7269a4e72e7b47d6ebebd9f5647f2708b6158ac5ce_1_1_1_0__1"
-      },
-      "type": "gp-section-610077273172738617"
+      }
     },
     "gp_section_610077273172804153": {
+      "type": "gp-section-610077273172804153",
       "settings": {
         "checksum": "274cb35cc09897ed4f736ecefedabc69bdc5247fdcb3fddd4a29c6588c267c24_1_1_1_0__1"
-      },
-      "type": "gp-section-610077273172804153"
+      }
     },
     "gp_section_610077273172869689": {
+      "type": "gp-section-610077273172869689",
       "settings": {
         "checksum": "86703368a4bc8564ccf23edbc6c43f5ef2648b54e513c1b44824bf6cc111dbe4_1_1_1_0__1"
-      },
-      "type": "gp-section-610077273172869689"
+      }
     },
     "gp_section_610077273172935225": {
+      "type": "gp-section-610077273172935225",
       "settings": {
         "checksum": "61e0b1f92261a103078a714e763750e67b9616dd4beeaaa10421f1397aee1ce7_1_1_1_0__1"
-      },
-      "type": "gp-section-610077273172935225"
+      }
     },
     "gp_section_610077273173000761": {
+      "type": "gp-section-610077273173000761",
       "settings": {
         "checksum": "d988dec1b4f05cf1819bacc52624a5789938df78d8c2a4da45fd3dd46d021334_1_1_1_0__1"
-      },
-      "type": "gp-section-610077273173000761"
+      }
     },
     "gp_section_610077273173066297": {
+      "type": "gp-section-610077273173066297",
       "settings": {
         "checksum": "c814c6ad618caeed7b422a09b1eb2824b75895d1eb74eec5678a8d27f7912e5b_1_1_1_0__1"
-      },
-      "type": "gp-section-610077273173066297"
+      }
     },
     "gp_section_610077273173131833": {
+      "type": "gp-section-610077273173131833",
       "settings": {
         "checksum": "941e7b9dbb6c6d661fa3fa184d7d48f1c2d05d5c9e477e37c959901c8347af7b_1_1_1_0__1"
-      },
-      "type": "gp-section-610077273173131833"
+      }
     },
     "gp_section_610077273173197369": {
+      "type": "gp-section-610077273173197369",
       "settings": {
         "checksum": "3867624961080d6e6b7612428ddb14259e9a4e1c5bab87be3936784ddbf43416_1_1_1_0__1"
-      },
-      "type": "gp-section-610077273173197369"
+      }
     },
     "gp_section_610077273173262905": {
+      "type": "gp-section-610077273173262905",
       "settings": {
         "checksum": "c5948a907fa44ee2d5e472b6630b0b94133b28e8ea55288686960df1ba8a0ca3_1_1_1_0__1"
-      },
-      "type": "gp-section-610077273173262905"
+      }
     },
     "gp_section_610077273173328441": {
+      "type": "gp-section-610077273173328441",
       "settings": {
         "checksum": "850b409d8c0703c4cbdf27e88641bd00a855784446eb321a1e36887eeb4f2c0f_1_1_1_0__1"
-      },
-      "type": "gp-section-610077273173328441"
+      }
     },
     "gp_section_610077273173393977": {
+      "type": "gp-section-610077273173393977",
       "settings": {
         "checksum": "d91351259080e0d41dbc6f6daac43be0a2cfbdcc3e05a0ee5521afbc4328b4a6_1_1_1_0__1"
-      },
-      "type": "gp-section-610077273173393977"
+      }
     },
     "gp_section_610077273173459513": {
+      "type": "gp-section-610077273173459513",
       "settings": {
         "checksum": "1cae0ed421ab3af0dbd79f35bfaee4103bc8eb62f0da834f01bc056001b9b974_1_1_1_0__1"
-      },
-      "type": "gp-section-610077273173459513"
+      }
     },
     "gp_section_610077273173525049": {
+      "type": "gp-section-610077273173525049",
       "settings": {
         "checksum": "b0004801b061ab1d115bbeebb2e087b06bbdafdf5c6d162c4587727db93a42b3_1_1_1_0__1"
-      },
-      "type": "gp-section-610077273173525049"
+      }
     },
     "gp_section_610077273173590585": {
+      "type": "gp-section-610077273173590585",
       "settings": {
         "checksum": "a8dc07054386e486eeb7bf2b5284d99359538dd991087c8e096ef6b359023a16_1_1_1_0__1"
-      },
-      "type": "gp-section-610077273173590585"
+      }
     },
     "gp_section_610077273173656121": {
-      "block_order": [
-        "gp_app_kaching-bundles_gBu2L5lftl"
-      ],
+      "type": "gp-section-610077273173656121",
       "blocks": {
         "gp_app_kaching-bundles_gBu2L5lftl": {
           "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
           "settings": {
-            "product": "test-fundamentals-the-upstream-fix-most-men-never-find"
+            "product": "test-fundamentals-the-t3-protocol"
           }
         }
       },
+      "block_order": [
+        "gp_app_kaching-bundles_gBu2L5lftl"
+      ],
       "settings": {
+        "section_preload": "true",
         "checksum": "10caf06efbf3910a15d0ed9ce07c4ce00ce297e7640273799f5fc06ec4c9432f_1_1_1_0__1",
         "ggtFkyKoLMa_label": "ADD TO CART",
         "ggtFkyKoLMa_outOfStockLabel": "Out of stock",
-        "ggtFkyKoLMa_unavailableLabel": "Unavailable",
-        "section_preload": "true"
-      },
-      "type": "gp-section-610077273173656121"
+        "ggtFkyKoLMa_unavailableLabel": "Unavailable"
+      }
     }
   },
   "order": [
